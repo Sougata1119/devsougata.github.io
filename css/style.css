@@ -1049,12 +1049,7 @@ h4 {
   font-family: "Proxima", sans-serif;
   display: block;
   color: var(--text-primary-color);
-  
- 
-  
-  outline: none;
-  transition: border 0.3s ease-in-out;
-  font-size: 0.9rem;
+
   
 }
 
@@ -1094,7 +1089,7 @@ h4 {
           left: 10px;
           color: #1a73e8;
           font-size: 0.75rem;
-          background-color:var(--other-color);
+          background-color:var(--bg-primary-color);
           height: 10px;
           padding-left: 5px;
           padding-right: 5px;
