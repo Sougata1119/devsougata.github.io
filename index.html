@@ -435,16 +435,18 @@
           <div class="form-image"></div>
           <div class="form-page">
             <form action="thankyou.html" data-netlify="true" class="form">
-              <div class="form-group group-bg">
-                <label for="Name">Name</label>
-                <input name="Name" id="Name" placeholder="Enter Name" required />
-              </div>
-              <div class="form-group group-bg">
-                <label for="Subject">Email</label>
-                <input type="email" name="Subject" id="Subject" placeholder="Email ID"
-                  required />
-               
-              </div>
+              <form>
+                <div class="inputBox">
+                  <input type="text" name="text" required onkeyup="this.setAttribute('value', this.value);" value="">
+                  <label for="Passowrd">Name</label>
+                </div>
+                <div class="inputBox">
+                  <input type="email" name="email" required onkeyup="this.setAttribute('value', this.value);"  value="">
+                  <label for="Email">Email</label>
+                </div>
+                
+             
+              
               <div class="form-group group-bg">
                 <label for="Message">Message</label>
                 <textarea name="Message" id="Message" placeholder="Message"></textarea>
@@ -453,7 +455,7 @@
                 <button type="submit" value="submit" class="btn">Submit</button>
               </div>
             </form>
-
+           
 
           </div>
         </div>
