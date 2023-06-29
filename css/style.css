@@ -254,7 +254,7 @@ h4 {
   z-index: 1;
 }
 
-/* Hero html icon*/
+/* Hero linux icon*/
 .content .content-image::before {
   content: "";
   position: absolute;
@@ -267,7 +267,8 @@ h4 {
   z-index: 1;
 }
 
-/* Hero Js icon*/
+
+/* Hero Android icon*/
 .content .content-image::after {
   content: "";
   position: absolute;
@@ -280,17 +281,31 @@ h4 {
   height: 90px;
 }
 
-/* Hero css icon*/
-.content .content-image .overlay-icons::after {
+/* Hero git icon*/
+.content .content-image ::after {
   content: "";
   position: absolute;
-  bottom: -105px;
+  bottom: -118px;
   right: -30px;
   width: 60px;
   height: 60px;
   background-image: url(/img/home/git.svg);
   background-repeat: no-repeat;
 }
+
+
+/* Hero CyberSec icon*/
+.content .content-image ::before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  right: 90px;
+  width: 100px;
+  height: 80px;
+  background-image: url(/img/home/cybersecurity.png);
+  background-repeat: no-repeat;
+}
+
 
 /* About */
 #about {
