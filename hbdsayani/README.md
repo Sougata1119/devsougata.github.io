@@ -1,7 +1,7 @@
 Made this as a birthday present for my looong distance feren. Small attempt for virtual party.
 
 
-URL: sougata.dev
+URL: [sougata.dev](https://sougata.dev)
 
 Technology Used: Javascript, CSS3, HTML5
 
